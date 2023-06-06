@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_helloyellow_1686058315013-pr-trigger-input-set
+  identifier: Build_helloyellow_1686058315013prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_helloyellow_1686058315013
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
